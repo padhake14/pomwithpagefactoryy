@@ -1,0 +1,19 @@
+2017-08-17 17:29:51 INFO  TC001_VerifyLoginWithInvalidCredentials:25 - =============Starting test===============
+2017-08-17 17:29:54 INFO  HomePage:34 - clicking on sigin and object is[[ChromeDriver: chrome on LINUX (2e17ae3219b2ccaf0ee639b7b429c19c)] -> xpath: //a[@class='login']]
+2017-08-17 17:29:54 INFO  HomePage:36 - enterd email addresstest@gmail.comand objact is[[ChromeDriver: chrome on LINUX (2e17ae3219b2ccaf0ee639b7b429c19c)] -> id: email]
+2017-08-17 17:29:54 INFO  HomePage:38 - enterd passwordpass123and objact is[[ChromeDriver: chrome on LINUX (2e17ae3219b2ccaf0ee639b7b429c19c)] -> id: passwd]
+2017-08-17 17:29:56 INFO  HomePage:40 - clicking on submit butoon and object is[[ChromeDriver: chrome on LINUX (2e17ae3219b2ccaf0ee639b7b429c19c)] -> id: SubmitLogin]
+2017-08-17 17:29:56 INFO  HomePage:44 - error message[[ChromeDriver: chrome on LINUX (2e17ae3219b2ccaf0ee639b7b429c19c)] -> xpath: //div[@class='alert alert-danger']/ol/li]
+2017-08-17 17:29:56 INFO  TC001_VerifyLoginWithInvalidCredentials:29 - =============Finished test===============
+2017-08-17 17:34:12 INFO  TC001_VerifyLoginWithInvalidCredentials:25 - =============Starting test===============
+2017-08-17 17:34:15 INFO  HomePage:34 - clicking on sigin and object is[[ChromeDriver: chrome on LINUX (4f2deb86c10582841363ccf2ed8b4559)] -> xpath: //a[@class='login']]
+2017-08-17 17:34:15 INFO  HomePage:36 - enterd email addresstest@gmail.comand objact is[[ChromeDriver: chrome on LINUX (4f2deb86c10582841363ccf2ed8b4559)] -> id: email]
+2017-08-17 17:34:16 INFO  HomePage:38 - enterd passwordpass123and objact is[[ChromeDriver: chrome on LINUX (4f2deb86c10582841363ccf2ed8b4559)] -> id: passwd]
+2017-08-17 17:34:17 INFO  HomePage:40 - clicking on submit butoon and object is[[ChromeDriver: chrome on LINUX (4f2deb86c10582841363ccf2ed8b4559)] -> id: SubmitLogin]
+2017-08-17 17:34:17 INFO  HomePage:44 - error messageAuthentication failed.
+2017-08-17 17:34:17 INFO  TC001_VerifyLoginWithInvalidCredentials:29 - =============Finished test===============
+2017-08-17 17:45:00 INFO  TC002_VerifyLoginWithValidCredentials:26 - =============Starting test===============
+2017-08-17 17:45:02 INFO  HomePage:34 - clicking on sigin and object is :-[[ChromeDriver: chrome on LINUX (99eaa4863ab9d0352cab2a396c8cfcde)] -> xpath: //a[@class='login']]
+2017-08-17 17:45:02 INFO  HomePage:36 - enterd email address :-dhakeparag3@gmail.comand objact is[[ChromeDriver: chrome on LINUX (99eaa4863ab9d0352cab2a396c8cfcde)] -> id: email]
+2017-08-17 17:45:02 INFO  HomePage:38 - enterd password :-123456and objact is[[ChromeDriver: chrome on LINUX (99eaa4863ab9d0352cab2a396c8cfcde)] -> id: passwd]
+2017-08-17 17:46:04 INFO  HomePage:40 - clicking on submit butoon and object is :-Proxy element for: DefaultElementLocator 'By.id: SubmitLogin'
