@@ -12,7 +12,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class TestBase {
 	public static final Logger log = Logger.getLogger(TestBase.class.getName());
 	public WebDriver driver;
-	String url = "http://automationpractice.com/index.php";
+	String url = "http://localhost/pomproject/demoSite.htm";
 	String browser = "chrome";
 	
 	

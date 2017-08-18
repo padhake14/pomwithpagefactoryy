@@ -17,3 +17,32 @@
 2017-08-17 17:45:02 INFO  HomePage:36 - enterd email address :-dhakeparag3@gmail.comand objact is[[ChromeDriver: chrome on LINUX (99eaa4863ab9d0352cab2a396c8cfcde)] -> id: email]
 2017-08-17 17:45:02 INFO  HomePage:38 - enterd password :-123456and objact is[[ChromeDriver: chrome on LINUX (99eaa4863ab9d0352cab2a396c8cfcde)] -> id: passwd]
 2017-08-17 17:46:04 INFO  HomePage:40 - clicking on submit butoon and object is :-Proxy element for: DefaultElementLocator 'By.id: SubmitLogin'
+2017-08-18 15:45:05 INFO  HomePage:69 - swiching to home page frame:-Proxy element for: DefaultElementLocator 'By.id: PreviewFrame'
+2017-08-18 15:45:10 INFO  HomePage:71 - click on sign up link:-[[ChromeDriver: chrome on LINUX (e565ecb306d28ff3f0023ed323d28896)] -> id: customer_register_link]
+2017-08-18 15:45:11 INFO  HomePage:73 - entering data to firstname:-test
+2017-08-18 15:45:11 INFO  HomePage:75 - entering data to lastname:-lastname
+2017-08-18 15:45:11 INFO  HomePage:77 - entering data to email:-tesst@gamil.com
+2017-08-18 15:45:11 INFO  HomePage:79 - entering data to password:-tsest
+2017-08-18 15:46:15 INFO  HomePage:81 - click on create account link:-Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='create_customer']/p/input'
+2017-08-18 16:21:35 INFO  HomePage:70 - swiching to home page frame:-Proxy element for: DefaultElementLocator 'By.id: PreviewFrame'
+2017-08-18 16:21:38 INFO  HomePage:72 - click on sign up link:-[[ChromeDriver: chrome on LINUX (e1240012b2f233a01b839e9389c60c71)] -> id: customer_register_link]
+2017-08-18 16:21:38 INFO  HomePage:74 - entering data to firstname:-test
+2017-08-18 16:21:38 INFO  HomePage:76 - entering data to lastname:-lastname
+2017-08-18 16:21:39 INFO  HomePage:78 - entering data to email:-tesst@gamil.com
+2017-08-18 16:21:39 INFO  HomePage:80 - entering data to password:-tsest
+2017-08-18 16:22:41 INFO  HomePage:82 - click on create account link:-Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='create_customer']/p/input'
+2017-08-18 16:26:42 INFO  HomePage:70 - swiching to home page frame:-Proxy element for: DefaultElementLocator 'By.id: PreviewFrame'
+2017-08-18 16:26:46 INFO  HomePage:72 - click on sign up link:-[[ChromeDriver: chrome on LINUX (ec955b31ad1a629d573a9d439b2f4494)] -> id: customer_register_link]
+2017-08-18 16:26:46 INFO  HomePage:74 - entering data to firstname:-test
+2017-08-18 16:26:47 INFO  HomePage:76 - entering data to lastname:-lastname
+2017-08-18 16:26:47 INFO  HomePage:78 - entering data to email:-tesst@gamil.com
+2017-08-18 16:26:47 INFO  HomePage:80 - entering data to password:-tsest
+2017-08-18 16:27:50 INFO  HomePage:82 - click on create account link:-Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='create_customer']/p/input'
+2017-08-18 16:31:51 INFO  HomePage:70 - swiching to home page frame:-Proxy element for: DefaultElementLocator 'By.id: PreviewFrame'
+2017-08-18 16:31:53 INFO  HomePage:72 - click on sign up link:-[[ChromeDriver: chrome on LINUX (0fa978a06a2cf0bcbb6ae50117b3a46c)] -> id: customer_register_link]
+2017-08-18 16:31:53 INFO  HomePage:74 - entering data to firstname:-test
+2017-08-18 16:31:54 INFO  HomePage:76 - entering data to lastname:-lastname
+2017-08-18 16:31:54 INFO  HomePage:78 - entering data to email:-tesst@gamil.com
+2017-08-18 16:31:54 INFO  HomePage:80 - entering data to password:-tsest
+2017-08-18 16:32:58 INFO  HomePage:82 - click on create account link:-Proxy element for: DefaultElementLocator 'By.xpath: .//*[@id='create_customer']/p/input'
+2017-08-18 16:32:58 INFO  HomePage:87 - error message :-To continue, let us know you're not a robot.

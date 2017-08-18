@@ -10,10 +10,14 @@ import com.test.automation.uiAutomation.uiAction.HomePage;
 
 import junit.framework.Assert;
 
-public class TC002_VerifyLoginWithValidCredentials extends TestBase {
-	public static final Logger log = Logger.getLogger(TC002_VerifyLoginWithValidCredentials.class.getName());
+public class TC002_verifyRegistration extends TestBase {
+	public static final Logger log = Logger.getLogger(TC002_verifyRegistration.class.getName());
 
 	HomePage homepage;
+	String firstname = "test";
+	String lastname = "lastname";
+	String email = "tesst@gamil.com";
+	String password = "tsest";
 
 	@BeforeTest
 	public void setUp() {
@@ -22,16 +26,14 @@ public class TC002_VerifyLoginWithValidCredentials extends TestBase {
 	}
 
 	@Test
-	public void verifyLoginWithValidCredentials() {
-		log.info("=============Starting test===============");
+	public void testLogin() {
 		homepage = new HomePage(driver);
-		homepage.loginToApplication("dhakeparag3@gmail.com", "123456");
-		Assert.assertEquals(homepage.getInvalidLoginText(), "Authentication failed.");
-		log.info("=============Finished test===============");
+		homepage.registeredUser(firstname, lastname, email, password);
+		Assert.assertEquals(homepage.getSucessRegistrationMessage(), "To continue, let us know you're not a robot.");
 	}
 
 	@AfterTest
 	public void endTest() {
-		driver.close();
+		driver.quit();
 	}
 }
